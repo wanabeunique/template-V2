@@ -1,6 +1,6 @@
 #tabs
 
-#connect
+# connect
 ```html
     <script defer src="./../js/tabs.js"></script>
 ```
@@ -19,7 +19,7 @@
     </div>
 ```
 
-#accordion
+# accordion
 
 #connect
 ```html
