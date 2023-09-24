@@ -1,3 +1,10 @@
+#tabs
+
+#connect
+```html
+    <script defer src="./../js/tabs.js"></script>
+```
+
 # template
 ```js
     <div class="tabs">
@@ -11,3 +18,23 @@
       </div>
     </div>
 ```
+
+#accordion
+
+#connect
+```html
+  <script defer src="./../js/accordion.js"></script>
+```
+
+# template
+```html
+<div class="accordion details__accordion">
+    <div class="accordion__top details__accordion--top">
+        accordion preview
+     </div>
+    <div class="accordion__content">
+        accordion content
+    </div>
+</div>
+```
+
