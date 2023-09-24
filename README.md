@@ -28,8 +28,8 @@
     
     + template
         ```html
-        <div class="accordion details__accordion">
-            <div class="accordion__top details__accordion--top">
+        <div class="accordion">
+            <div class="accordion__top">
                 accordion preview
              </div>
             <div class="accordion__content">
