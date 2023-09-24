@@ -21,7 +21,7 @@
 
 - accordion
 
-    #connect
+    # connect
     ```html
       <script defer src="./../js/accordion.js"></script>
     ```
