@@ -1,0 +1,144 @@
+:root
+  // fonts 
+  --font-family: 'Arial'
+  --secondary-font-family: 'Inter'
+  // colors
+
+  // offsets
+  --container-offset: 60px 
+
+  --header-offset: 150px
+  --padding: 5px
+  --offset: 10px
+  --gap: 10px
+
+  //border-radius
+  --small-border-radius: 8px
+  --border-radius: 15px
+  --big-border-radius: 40px
+
+  //text
+  --font-size: 22px
+  --middle-font-size: 16px
+  --small-font-size: 12px
+
+
+button
+  cursor: pointer
+
+body
+  min-width: 320px
+  font-family: var(--font-family)
+    
+
+
+a
+  &:hover
+    filter: contrast(1.6)
+
+
+
+.button
+  padding: 15px 35px
+  border: none
+
+.center
+  display: flex
+  align-items: center
+  justify-content: center
+
+.mask
+  display: none
+  position: absolute
+  background: rgba(0, 0, 0, 0.50)
+  mix-blend-mode: darken
+  width: 100vw
+  height: 100%
+  top: 0
+  left: 0
+  z-index: 2
+  &--active
+    display: block
+
+
+
+.white
+  color: var(--white-color)
+
+
+.swiper--buttom-custom
+  cursor: pointer
+  z-index: 2
+  width: 42px 
+  height: 42px 
+  border-radius: 100%
+  background: var(--red-color)
+  display: flex
+  align-items: center
+  justify-content: center
+
+
+.swiper--buttom-custom.swiper-button-disabled
+    background: var(--white-color)
+    svg
+      path
+        stroke: var(--dark-blue-color)
+
+.swiper--next
+  position: absolute
+  top: calc(50% - 21px)
+  right: -10px
+
+.swiper--prev
+  position: absolute
+  top: calc(50% - 21px)
+  left: -10px
+
+.swiper-wrapper
+  position: relative
+
+.swiper--cutom-pag
+  display: flex
+  align-items: center
+  justify-content: center
+  bottom: calc(-18px - 30px) !important
+  .swiper-pagination-bullet
+    background: var(--white-color)
+    opacity: 1
+  .swiper-pagination-bullet-active
+    background: var(--red-color)
+    
+.view-all
+  display: flex
+  align-items: center
+  gap: 20px
+  text-decoration: none
+
+.top
+  display: flex
+  align-items: center
+  justify-content: space-between
+
+.trigger
+  cursor: pointer
+  position: absolute
+  background: rgba(46, 67, 86, 1)
+  border: none
+  right: 0
+  top: calc(50% - 12px)
+  svg
+    width: 24px
+    height: 24px
+
+.input
+  width: 100%
+  border-radius: var(--border-radius)
+  border: 1px solid var(--dark-blue-color)
+  padding: calc(var(--padding) * 4) calc(var(--padding) * 3)
+
+.bold
+  font-weight: 700
+
+.swiper--cutom-pag
+  width: 100% !important
+  left: 0 !important
