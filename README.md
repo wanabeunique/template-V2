@@ -1,3 +1,7 @@
+## template for creating websites on html, css, js
+### Features: folders structure; diffrent containers; variables for colors, offsets, etc.; js tabs, accordion; shrek image for test; installed swiper + simplebar latest 
+
+
 - tabs
 
     + connect
