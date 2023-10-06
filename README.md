@@ -1,5 +1,5 @@
 ## template for creating websites on html, css, js
-### Features: folders structure; diffrent containers; variables for colors, offsets, etc.; js tabs, accordion; shrek image for test; installed swiper + simplebar latest 
+### Features: folders structure width css/js/html; diffrent containers (width left/right padding and other in _containers.sass); variables for colors, offsets, etc.; js tabs, accordion; shrek image for test; footer always at the bottom of the page (if page < 100vh)
 
 
 - tabs

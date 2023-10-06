@@ -10,7 +10,7 @@ tabs.forEach(tab => {
   })
 })   
 
-function switchActiveSelect(select,i){
+function switchActiveSelect(select){
   let contextSelects = [...select.closest('.tabs__top').querySelectorAll('.tabs__top--item')]
   contextSelects.forEach(contextSelect => {
     contextSelect.classList.remove('active-select')

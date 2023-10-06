@@ -4,6 +4,9 @@
   --secondary-font-family: 'Inter'
   // colors
 
+  --black-color: #000
+  --white-color: #fff
+
   // offsets
   --container-offset: 60px 
 
@@ -15,9 +18,9 @@
   //border-radius
   --small-border-radius: 8px
   --border-radius: 15px
-  --big-border-radius: 40px
 
   //text
+  --title-font-size: 35px
   --font-size: 22px
   --middle-font-size: 16px
   --small-font-size: 12px
@@ -26,26 +29,28 @@ button
   cursor: pointer
 
 body
+  display: flex
+  flex-direction: column
   min-width: 320px
+  min-height: 100vh
   font-family: var(--font-family)
 
 a
   &:hover
     filter: contrast(1.6)
 
+.main
+  min-height: 100%
+  flex: 1 0 auto
+
 .button
-  padding: 15px 35px
+  padding: calc(var(--padding) * 3) calc(var(--padding) * 6)
   border: none
 
 .center
   display: flex
   align-items: center
   justify-content: center
-
-.top
-  display: flex
-  align-items: center
-  justify-content: space-between
 
 .bold
   font-weight: 700
